@@ -26,7 +26,7 @@ export const StackNavigation = () => {
 
   return (
     <Stack.Navigator>
-      {user.UID !== 0 ? (
+      {user.UID ? (
         <>
           <Stack.Screen
             name="Theme"
